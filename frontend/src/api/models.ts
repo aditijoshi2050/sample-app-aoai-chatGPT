@@ -121,5 +121,6 @@ export enum Feedback {
     Violent = "violent",
     Sexual = "sexual",
     Manipulative = "manipulative",
-    OtherHarmful = "other_harmlful"
+    OtherHarmful = "other_harmful",
+    NoResponseGiven="no_response"
 }
