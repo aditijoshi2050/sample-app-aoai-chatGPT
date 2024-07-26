@@ -159,8 +159,8 @@ export const Answer = ({
                 <Checkbox label="Citations are missing" id={Feedback.MissingCitation} defaultChecked={negativeFeedbackList.includes(Feedback.MissingCitation)} onChange={updateFeedbackList}></Checkbox>
                 <Checkbox label="Citations are wrong" id={Feedback.WrongCitation} defaultChecked={negativeFeedbackList.includes(Feedback.WrongCitation)} onChange={updateFeedbackList}></Checkbox>
                 <Checkbox label="The response is not from my data" id={Feedback.OutOfScope} defaultChecked={negativeFeedbackList.includes(Feedback.OutOfScope)} onChange={updateFeedbackList}></Checkbox>
-                <Checkbox label="Inaccurate or irrelevant Response" id={Feedback.InaccurateOrIrrelevant} defaultChecked={negativeFeedbackList.includes(Feedback.InaccurateOrIrrelevant)} onChange={updateFeedbackList}></Checkbox>
-                <Checkbox label="No Response Given" id={Feedback.NoResponseGiven} defaultChecked={negativeFeedbackList.includes(Feedback.NoResponseGiven)} onChange={updateFeedbackList}></Checkbox>
+                <Checkbox label="Inaccurate or irrelevant response" id={Feedback.InaccurateOrIrrelevant} defaultChecked={negativeFeedbackList.includes(Feedback.InaccurateOrIrrelevant)} onChange={updateFeedbackList}></Checkbox>
+                <Checkbox label="No response given" id={Feedback.NoResponseGiven} defaultChecked={negativeFeedbackList.includes(Feedback.NoResponseGiven)} onChange={updateFeedbackList}></Checkbox>
                 <Checkbox label="Other" id={Feedback.OtherUnhelpful} defaultChecked={negativeFeedbackList.includes(Feedback.OtherUnhelpful)} onChange={updateFeedbackList}></Checkbox>
             </Stack>
             <div onClick={() => setShowReportInappropriateFeedback(true)} style={{ color: "#115EA3", cursor: "pointer"}}>Report inappropriate content</div>
